@@ -16,6 +16,7 @@ const createTask = (evento) =>{
     titleTask.classList.add("task");
     titleTask.innerText = value;
     taskContent.appendChild(titleTask);
+    
     const content = `
   <i class="fas fa-trash-alt trashIcon icon"></i>`;
   //task.innerHTML = content;
